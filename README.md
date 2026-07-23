@@ -25,7 +25,7 @@ Copy the `SCRIPTS` folder directly to your radio's **SD card root**.
 
 **Type:** Tool (`/SCRIPTS/TOOLS/`)
 **Purpose:**
-An **RSSI-based lost model finder** using ELRS/CRSF telemetry. Geiger-counter style — the closer you get to your quad, the faster it beeps.
+An **RSSI-based lost model finder** using ELRS/CRSF telemetry. Geiger-counter style. The closer you get to your quad, the faster it beeps.
 
 - Large color-coded strength readout: red (weak) → yellow → green (strong)
 - Full-width signal bar plus raw and averaged dBm values
@@ -34,9 +34,9 @@ An **RSSI-based lost model finder** using ELRS/CRSF telemetry. Geiger-counter st
 
 **How it reads signal:**
 
-1. **1RSS** — CRSF RSSI in dBm (preferred)
-2. **RSNR** — link SNR, rescaled to a dBm estimate
-3. **RQly** — link quality %, rescaled as a last resort
+1. **1RSS**: CRSF RSSI in dBm (preferred)
+2. **RSNR**: link SNR, rescaled to a dBm estimate
+3. **RQly**: link quality %, rescaled as a last resort
 
 The value is smoothed with an exponential moving average, mapped to a 0–100% strength, and drives both the display and the beep cadence.
 
@@ -48,10 +48,10 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 
 **For best results:**
 
-- Set a **fixed low TX power** (10–25 mW) in the ELRS menu before you start walking. At full power RSSI saturates and everything reads "strong" — low power is what makes the Geiger effect useful.
+- Set a **fixed low TX power** (10–25 mW) in the ELRS menu before you start walking. At full power RSSI saturates and everything reads "strong". Low power is what makes the Geiger effect useful.
 - Sweep the radio slowly and follow the signal peaks.
 - **Lower TX power further as you get close** to keep resolution in the last few meters.
-- The quad's battery must still be connected — this works off the live ELRS link, not a beacon.
+- The quad's battery must still be connected. This works off the live ELRS link, not a beacon.
 
 **Verified on:**
 
@@ -64,7 +64,7 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 
 ![ELRS Finder on a Radiomaster TX16S MKIII](screenshots/tx16s-live.png)
 
-**Credit:** Adapted from [ELRS_Finder.lua](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw/blob/main/SCRIPTS/TOOLS/ELRS_Finder.lua) by [Sunil Chahal](https://github.com/iamsunilchahal) (MIT). The finder logic is unchanged — only the display layout was redesigned for color screens.
+**Credit:** Adapted from [ELRS_Finder.lua](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw/blob/main/SCRIPTS/TOOLS/ELRS_Finder.lua) by [Sunil Chahal](https://github.com/iamsunilchahal) (MIT). The finder logic is unchanged, only the display layout was redesigned for color screens.
 
 ## 📥 Installation for All Scripts
 
@@ -76,6 +76,6 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE). Original finder logic © 2025 Sunil Chahal; color adaptation © 2026 Ray Noland / [FPV Guidebook](https://fpv-guidebook.com). Use, modify, and share freely — please keep the attribution.
+MIT — see [LICENSE](LICENSE). Original finder logic © 2025 Sunil Chahal; color adaptation © 2026 Ray Noland / [FPV Guidebook](https://fpv-guidebook.com). Use, modify, and share freely. Please keep the attribution.
 
-✈️ Built and tested in Berlin by [FPV Guidebook](https://fpv-guidebook.com) — an independent FPV reference app.
+✈️ Built and tested in Berlin by [FPV Guidebook](https://fpv-guidebook.com) an independent FPV reference app.
