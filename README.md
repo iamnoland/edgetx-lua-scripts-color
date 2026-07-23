@@ -1,6 +1,6 @@
 # EdgeTX Lua Scripts (Color Screen Optimized)
 
-An EdgeTX Lua script for Radiomaster, Jumper, and other EdgeTX radios, optimized for color displays like the TX16S and TX15. 
+An **EdgeTX Lua script** for Radiomaster, Jumper, and other EdgeTX radios, optimized for **color displays** like the TX16S and TX15.
 
 Layouts scale from `LCD_W`/`LCD_H`, so the same file renders correctly across different color screen resolutions. Requires **EdgeTX 2.8+** (uses `lcd.RGB()`).
 
@@ -12,7 +12,11 @@ Layouts scale from `LCD_W`/`LCD_H`, so the same file renders correctly across di
 
 ```
 SCRIPTS/
-└── TOOLS/        # Tools accessible via the SYS → Tools menu
+└── TOOLS/
+    └── ELRS_Finder_Color.lua    # Tool accessible via SYS → Tools menu
+screenshots/                     # README images
+LICENSE
+README.md
 ```
 
 Copy the `SCRIPTS` folder directly to your radio's **SD card root**.
