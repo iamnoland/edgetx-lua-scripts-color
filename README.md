@@ -2,7 +2,9 @@
 
 An **EdgeTX Lua script** for Radiomaster, Jumper, and other EdgeTX radios, optimized for **color displays** like the TX16S and TX15.
 
-Layouts scale from `LCD_W`/`LCD_H`, so the same file renders correctly across different color screen resolutions. Requires **EdgeTX 2.8+** (uses `lcd.RGB()`).
+Layouts scale from `LCD_W`/`LCD_H`, so the same file renders correctly across different color screen resolutions. 
+
+Requires **EdgeTX 2.8+** (uses `lcd.RGB()`).
 
 > Flying a black-and-white radio (Boxer, Pocket, GX12)? Use the original [edgetx-lua-scripts-bw](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw) by [Sunil Chahal](https://github.com/iamsunilchahal) instead.
 
