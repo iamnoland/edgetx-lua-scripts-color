@@ -22,7 +22,9 @@ Copy the `SCRIPTS` folder directly to your radio's **SD card root**.
 ## 📜 [ELRS_Finder_Color.lua](SCRIPTS/TOOLS/ELRS_Finder_Color.lua)
 
 **Type:** Tool (`/SCRIPTS/TOOLS/`)
+
 **Purpose:**
+
 An **RSSI-based lost model finder** using ELRS/CRSF telemetry. Geiger-counter style. The closer you get to your quad, the faster it beeps.
 
 - Large color-coded strength readout: red (weak) → yellow → green (strong)
