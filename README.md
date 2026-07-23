@@ -6,8 +6,6 @@ Layouts scale from `LCD_W`/`LCD_H`, so the same file renders correctly across di
 
 > Flying a black-and-white radio (Boxer, Pocket, GX12)? Use the original [edgetx-lua-scripts-bw](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw) by [Sunil Chahal](https://github.com/iamsunilchahal) instead.
 
----
-
 ## 📂 Repository Structure
 
 ```
@@ -20,8 +18,6 @@ README.md
 ```
 
 Copy the `SCRIPTS` folder directly to your radio's **SD card root**.
-
----
 
 ## 📜 Available Scripts
 
@@ -70,8 +66,6 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 
 **Credit:** Adapted from [ELRS_Finder.lua](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw/blob/main/SCRIPTS/TOOLS/ELRS_Finder.lua) by [Sunil Chahal](https://github.com/iamsunilchahal) (MIT). The finder logic is unchanged — only the display layout was redesigned for color screens.
 
----
-
 ## 📥 Installation for All Scripts
 
 1. Download this repository:
@@ -80,12 +74,8 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 2. Extract and copy the `SCRIPTS` folder to the root of your EdgeTX SD card.
 3. Access scripts from the **Tools menu** (long-press `SYS` → Tools).
 
----
-
 ## 📄 License
 
 MIT — see [LICENSE](LICENSE). Original finder logic © 2025 Sunil Chahal; color adaptation © 2026 Ray Noland / [FPV Guidebook](https://fpv-guidebook.com). Use, modify, and share freely — please keep the attribution.
-
----
 
 ✈️ Built and tested in Berlin by [FPV Guidebook](https://fpv-guidebook.com) — an independent FPV reference app.
