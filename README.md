@@ -1,6 +1,6 @@
 # EdgeTX Lua Scripts (Color Screen Optimized)
 
-A collection of **EdgeTX Lua scripts** for Radiomaster, Jumper, and other EdgeTX radios, optimized for **color displays** like the TX16S and TX15.
+An EdgeTX Lua script for Radiomaster, Jumper, and other EdgeTX radios, optimized for color displays like the TX16S and TX15. 
 
 Layouts scale from `LCD_W`/`LCD_H`, so the same file renders correctly across different color screen resolutions. Requires **EdgeTX 2.8+** (uses `lcd.RGB()`).
 
@@ -84,4 +84,4 @@ MIT — see [LICENSE](LICENSE). Original finder logic © 2025 Sunil Chahal; colo
 
 ---
 
-✈️ Built and tested in Berlin by [FPV Guidebook](https://fpv-guidebook.com) — an independent FPV reference app with no sponsorships, affiliate links, or pay-for-placement.
+✈️ Built and tested in Berlin by [FPV Guidebook](https://fpv-guidebook.com) — an independent FPV reference app.
