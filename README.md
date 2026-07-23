@@ -1,4 +1,4 @@
-# EdgeTX Lua Scripts (Color Screen Optimized)
+# EdgeTX Lua Script (Color Screen Optimized)
 
 An **EdgeTX Lua script** for Radiomaster, Jumper, and other EdgeTX radios, optimized for **color displays** like the TX16S and TX15.
 
@@ -19,9 +19,7 @@ README.md
 
 Copy the `SCRIPTS` folder directly to your radio's **SD card root**.
 
-## 📜 Available Scripts
-
-### 1. [ELRS_Finder_Color.lua](SCRIPTS/TOOLS/ELRS_Finder_Color.lua)
+## 📜 [ELRS_Finder_Color.lua](SCRIPTS/TOOLS/ELRS_Finder_Color.lua)
 
 **Type:** Tool (`/SCRIPTS/TOOLS/`)
 **Purpose:**
@@ -65,14 +63,6 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 ![ELRS Finder on a Radiomaster TX16S MKIII](screenshots/tx16s-live.png)
 
 **Credit:** Adapted from [ELRS_Finder.lua](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw/blob/main/SCRIPTS/TOOLS/ELRS_Finder.lua) by [Sunil Chahal](https://github.com/iamsunilchahal) (MIT). The finder logic is unchanged, only the display layout was redesigned for color screens.
-
-## 📥 Installation for All Scripts
-
-1. Download this repository:
-   - **Option A:** Click the green **Code** button → **Download ZIP**
-   - **Option B:** Clone via Git (`git clone https://github.com/iamnoland/edgetx-lua-scripts-color.git`)
-2. Extract and copy the `SCRIPTS` folder to the root of your EdgeTX SD card.
-3. Access scripts from the **Tools menu** (long-press `SYS` → Tools).
 
 ## 📄 License
 
