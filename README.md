@@ -75,6 +75,6 @@ Make sure your radio has discovered ELRS telemetry sensors. Go to **Model Setup 
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE). Original finder logic © 2025 Sunil Chahal; color adaptation © 2026 Ray Noland / [FPV Guidebook](https://fpv-guidebook.com). Use, modify, and share freely. Please keep the attribution.
+MIT [LICENSE](LICENSE). Original finder logic © 2025 Sunil Chahal; color adaptation © 2026 Ray Noland / [FPV Guidebook](https://fpv-guidebook.com). Use, modify, and share freely. Please keep the attribution.
 
 ✈️ Built and tested in Berlin by [FPV Guidebook](https://fpv-guidebook.com) an independent FPV reference app.
