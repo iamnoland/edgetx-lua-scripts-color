@@ -55,6 +55,9 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 
 > **No signal?** Make sure your radio has discovered ELRS telemetry sensors. Go to **Model Setup → Telemetry → Discover new sensors** and wait for sensors like 1RSS, RSNR, or RQly to appear. The script can't read signal strength until sensors are registered.
 
+![Tap Discover new to find sensors](screenshots/discover-sensors-2.jpg)
+![Discovered ELRS sensors](screenshots/discover-sensors-1.jpg)
+
 **Verified on:**
 
 | Radio | Screen | Status |
