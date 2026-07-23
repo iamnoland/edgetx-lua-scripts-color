@@ -53,6 +53,8 @@ The value is smoothed with an exponential moving average, mapped to a 0–100% s
 - **Lower TX power further as you get close** to keep resolution in the last few meters.
 - The quad's battery must still be connected. This works off the live ELRS link, not a beacon.
 
+> **No signal?** Make sure your radio has discovered ELRS telemetry sensors. Go to **Model Setup → Telemetry → Discover new sensors** and wait for sensors like 1RSS, RSNR, or RQly to appear. The script can't read signal strength until sensors are registered.
+
 **Verified on:**
 
 | Radio | Screen | Status |
